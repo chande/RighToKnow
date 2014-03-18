@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="university_names">
+        <item>FAMU</item>
+        <item>FAU</item>
+        <item>FGCU</item>
+        <item>FIU</item>
+        <item>FSU</item>
+        <item>NCF</item>
+        <item>UCF</item>
+        <item>UF</item>        
+        <item>UNF</item>
+        <item>USF</item>
+        <item>UWF</item>
+    </array>
+</resources>

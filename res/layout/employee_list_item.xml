@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" android:padding="10dip" android:gravity="center">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" android:layout_weight="1" android:layout_marginRight="5dip" android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/employeeNameTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Trey Abad"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" 
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/employeeTitleTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="13883 Covlet Street"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:layout_marginTop="5dip"
+            android:gravity="center"/>
+        
+        <TextView
+            android:id="@+id/employeeSalaryTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="$211,000/year"
+            android:textColor="#FF0000"
+            android:textSize="14sp"
+            android:layout_marginTop="5dip"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
